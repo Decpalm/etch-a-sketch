@@ -4,6 +4,12 @@
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.sub.container {
     border: 5px solid black;
     display: flex;
     width: 800px;
@@ -12,11 +18,41 @@
 }
 
 .box {
-    width: 50px;
-    height: 50px;
     flex: 0 0 auto;
 }
 
 .hover {
     background-color: grey;
+}
+
+.button.container {
+    flex-direction: row;
+}
+
+.button {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    align-self: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font: 900;
+    
+    margin: 20px 20px 20px 20px;
+}
+
+.grid {
+    background-color: lightgreen;
+    height: 80px;
+    width: 180px;
+}
+
+.reset {
+    background-color: lightcoral;
+    height: 80px;
+    width: 80px;   
+}
+
+.text {
+    margin: -30px 0 -20px 0;
 }
